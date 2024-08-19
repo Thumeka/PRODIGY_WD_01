@@ -2,7 +2,7 @@
 window.onscroll = () => {
   const header = document.querySelector('.header');
   if (window.scrollY > 100) {
-      header.style.backgroundColor = '#E0FF6F'; // Lighter green shade when scrolling
+      header.style.backgroundColor = '#A7ADDF'; // Lighter green shade when scrolling
   } else {
       header.style.backgroundColor = '#C62CD4'; // Original color when at the top
   }
