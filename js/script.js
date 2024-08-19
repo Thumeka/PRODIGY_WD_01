@@ -1,84 +1,41 @@
-let searchForm = document.querySelector('.search-form');
+// Change header background color on scroll
+window.onscroll = () => {
+  const header = document.querySelector('.header');
+  if (window.scrollY > 100) {
+      header.style.backgroundColor = '#E0FF6F'; // Lighter green shade when scrolling
+  } else {
+      header.style.backgroundColor = '#C62CD4'; // Original color when at the top
+  }
+};
 
-document.querySelector('#search-btn').onclick = () =>{
-    searchForm.classList.toggle('active');
-    shoppingCart.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
-}
+// Toggle Navbar on small screens
+document.querySelector('#menu-btn').onclick = () => {
+  document.querySelector('.navbar').classList.toggle('active');
+};
 
-let shoppingCart = document.querySelector('.shopping-cart');
-
-document.querySelector('#cart-btn').onclick = () =>{
-    shoppingCart.classList.toggle('active');
-    searchForm.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
-}
-
-let loginForm = document.querySelector('.login-form');
-
-document.querySelector('#login-btn').onclick = () =>{
-    loginForm.classList.toggle('active');
-    searchForm.classList.remove('active');
-    shoppingCart.classList.remove('active');
-    navbar.classList.remove('active');
-}
-
-let navbar = document.querySelector('.navbar');
-
-document.querySelector('#menu-btn').onclick = () =>{
-    navbar.classList.toggle('active');
-    searchForm.classList.remove('active');
-    shoppingCart.classList.remove('active');
-    loginForm.classList.remove('active');
-}
-
-window.onscroll = () =>{
-    searchForm.classList.remove('active');
-    shoppingCart.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
-}
-
-var swiper = new Swiper(".product-slider", {
-    loop:true,
-    spaceBetween: 20,
-    autoplay: {
-        delay: 7500,
-        disableOnInteraction: false,
-    },
-    centeredSlides: true,
-    breakpoints: {
-      0: {
-        slidesPerView: 1,
+// Initialize Swiper
+document.addEventListener('DOMContentLoaded', function () {
+  var swiper = new Swiper('.swiper-container', {
+      loop: true, // Enables continuous loop mode
+      navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
       },
-      768: {
-        slidesPerView: 2,
+      pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
       },
-      1020: {
-        slidesPerView: 3,
+      slidesPerView: 1, // Number of slides visible at the same time
+      spaceBetween: 20, // Space between slides in pixels
+      breakpoints: {
+          768: {
+              slidesPerView: 2,
+              spaceBetween: 30, // Increase space between slides on medium screens
+          },
+          1024: {
+              slidesPerView: 3,
+              spaceBetween: 40, // Increase space between slides on larger screens
+          },
       },
-    },
-});
-
-var swiper = new Swiper(".review-slider", {
-    loop:true,
-    spaceBetween: 20,
-    autoplay: {
-        delay: 7500,
-        disableOnInteraction: false,
-    },
-    centeredSlides: true,
-    breakpoints: {
-      0: {
-        slidesPerView: 1,
-      },
-      768: {
-        slidesPerView: 2,
-      },
-      1020: {
-        slidesPerView: 3,
-      },
-    },
+  });
 });
