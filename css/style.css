@@ -19,28 +19,44 @@ a:hover {
 
 /* Header Section */
 .header {
-    background-color: #ff79c6;
+    position: fixed; /* Fixes the header at the top of the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(207, 228, 227, 0.952); /* Semi-transparent background color */
     padding: 20px;
     text-align: center;
+    z-index: 1000; /* Ensures the header stays above other content */
+    backdrop-filter: blur(20px); /* Optional: adds a blur effect to the background */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
 }
 
+/* Logo */
 .header .logo {
     font-size: 2rem;
     color: #e0eaf0;
     text-transform: uppercase;
 }
 
+/* Navbar Links */
 .header .navbar a {
     color: #fff;
     margin: 0 15px;
     font-size: 1rem;
 }
 
+/* Icons */
 .header .icons .fas {
     color: #fff;
     font-size: 1.5rem;
     cursor: pointer;
 }
+
+/* Ensure that the content below the header doesn't hide behind it */
+body {
+    padding-top: 80px; /* Adjust based on header height */
+}
+
 
 /* Home Section */
 .home {
@@ -88,7 +104,7 @@ a:hover {
 /* About Section */
 .about {
     padding: 60px 20px;
-    background-color: #fff;
+    background-color: #f5c378;
     text-align: center;
 }
 
