@@ -1,0 +1,59 @@
+[
+    {
+      "_id": "1",
+      "title": "How to Start Your Day with Purpose",
+      "content": "Starting your day on the right note can set the tone for everything that follows. A purposeful morning routine can help you feel more focused and energized. In this post, we’ll share tips on how to create a morning routine that works for you, from setting intentions to practicing mindfulness.",
+      "images": ["/assets/blog-images/Motiv-1.jpg"],
+      "tags": ["Lifestyle", "Wellness", "Productivity"]
+    },
+    {
+      "_id": "2",
+      "title": "Mastering the Art of Minimalism",
+      "content": "Minimalism isn't just about decluttering your space—it's about simplifying your life and focusing on what truly matters. Whether it’s cutting down on material possessions or simplifying your schedule, this post will guide you through the steps to master minimalism and live a more intentional life.",
+      "images": ["/assets/blog-images/Motiv-2.jpg"],
+      "tags": ["Minimalism", "Lifestyle", "Simplicity"]
+    },
+    {
+      "_id": "3",
+      "title": "The Power of Positive Thinking",
+      "content": "Your mindset has a huge impact on your life. Embracing positive thinking can lead to improved mental health, better relationships, and increased motivation. This post dives into the science behind positive thinking and offers practical tips for incorporating it into your daily life.",
+      "images": ["/assets/blog-images/Motiv-3.jpg"],
+      "tags": ["Mindset", "Self-improvement", "Happiness"]
+    },
+    {
+      "_id": "4",
+      "title": "Building Strong Habits for Lasting Change",
+      "content": "We all have goals, but the secret to achieving them lies in our daily habits. This post will explore how to build strong, sustainable habits that lead to lasting change, using techniques like habit stacking, accountability, and tracking progress.",
+      "images": ["/assets/blog-images/Motiv-4.jpg"],
+      "tags": ["Productivity", "Self-discipline", "Personal Growth"]
+    },
+    {
+      "_id": "5",
+      "title": "Exploring the Benefits of Meditation",
+      "content": "Meditation is more than just sitting quietly—it’s a powerful tool for reducing stress, improving focus, and promoting overall well-being. In this post, we’ll break down the benefits of meditation and provide simple steps to help you get started with a meditation practice.",
+      "images": ["/assets/blog-images/Motiv-5.jpg"],
+      "tags": ["Mindfulness", "Wellness", "Mental Health"]
+    },
+    {
+      "_id": "6",
+      "title": "The Essentials of Time Management",
+      "content": "Managing your time effectively is crucial for success in both personal and professional life. In this blog post, we share essential time management tips, from prioritizing tasks to using productivity tools that can help you stay organized and efficient.",
+      "images": ["/assets/blog-images/Motiv-6.jpg"],
+      "tags": ["Time Management", "Productivity", "Work-Life Balance"]
+    },
+    {
+      "_id": "7",
+      "title": "How to Cultivate Creativity in Your Daily Life",
+      "content": "Creativity isn't just for artists—it's a skill everyone can develop. In this post, we’ll share ways to spark creativity in your daily routine, from journaling to trying new hobbies, so you can approach problems and projects with fresh, innovative ideas.",
+      "images": ["/assets/blog-images/Motiv-7.jpeg"],
+      "tags": ["Creativity", "Personal Development", "Inspiration"]
+    },
+    {
+      "_id": "8",
+      "title": "Staying Motivated: Tips to Keep You on Track",
+      "content": "Staying motivated can be challenging, especially when you're working toward long-term goals. This post explores practical ways to boost your motivation, including setting small, achievable milestones, finding your 'why,' and maintaining a positive mindset throughout your journey.",
+      "images": ["/assets/blog-images/Motiv-8.jpeg"],
+      "tags": ["Motivation", "Goal Setting", "Self-improvement"]
+    }
+  ]
+  

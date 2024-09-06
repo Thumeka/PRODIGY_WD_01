@@ -1,112 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog_Away</title>
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-</head>
-<body>
-
-<!-- Header Section -->
-<header class="header">
-    <a href="#" class="logo"> <i class="fas fa-smile-wink"></i>BlogAway</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/media.css" />
+    <link rel="stylesheet" href="/css/loader.css" />
+    <title>BLOG_AWAY</title>
+  </head>
+  <body>
+    <div class="loader-container">
+      <div class="loader"></div>
+    </div>
     <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a>
+      <a href="/" id="caffeine-heading">BlogAway</a>
+      <ul>
+        <li>
+          <a href="#main">Home</a>
+        </li>
+        <li>
+          <a href="#blog">Blog</a>
+        </li>
+      </ul>
     </nav>
-    <div class="icons">
-        <div class="fas fa-bars" id="menu-btn"></div>
-    </div>
-</header>
-
-<!-- Home Section -->
-<section class="home" id="home">
-    <div class="content">
-        <h3>Welcome to BlogAway</h3>
-        <p>The journey that you took</p>
-        <a href="#" class="btn">Explore Now</a>
-    </div>
-</section>
-
-<!-- About Section -->
-<section class="about" id="about">
-    <h1 class="heading"> About <span>Me</span> </h1>
-    <div class="about-hover-zoom">
-        <img src="images/_14d183d0-6f13-445e-95a4-12cedab0d89e.jpg" alt="About Me">
-    </div>
-    <p>Me Myself and I.</p>
-</section>
-
-<!-- Blog Section -->
-<section class="blog" id="blog">
-    <h1 class="heading"> Latest <span>Posts</span> </h1>
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <!-- Example Blog Post 1 -->
-            <div class="swiper-slide post">
-                <img src="images/kimon-maritz-zMV7sqlJNow-unsplash.jpg" alt="">
-                <h3>Flow with the vibe</h3>
-                <p>May the river take you where there are not ends.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-            <!-- Example Blog Post 2 -->
-            <div class="swiper-slide post">
-                <img src="images/mourad-saadi-GyDktTa0Nmw-unsplash.jpg" alt="">
-                <h3>Follow the waves</h3>
-                <p>The wave may lead you to the shore.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-            <!-- Example Blog Post 3 -->
-            <div class="swiper-slide post">
-                <img src="images/v2osk-1Z2niiBPg5A-unsplash.jpg" alt="">
-                <h3>Fly away with me</h3>
-                <p>Travel with me and see the world beyond the eyes beneath the earth.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-            <!-- Add more blog posts here -->
-
+    <main id="main">
+      <div class="landing">
+        <div id="landing-background">
+          <!-- javascript puts images here with class landing-background-image-->
         </div>
-
-        <!-- Add Swiper navigation buttons -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-
-        <!-- Add Swiper pagination if needed -->
-        <div class="swiper-pagination"></div>
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section class="contact" id="contact">
-    <h1 class="heading"> Get in <span>Touch</span> </h1>
-    <p>Feel free to reach out to me anytime!</p>
-</section>
-
-<!-- Footer -->
-<footer class="footer">
-    <p>Created by <span>Thumeka Tembani</span> | All rights reserved</p>
-</footer>
-
-<!-- Swiper JS -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<!-- Custom Script -->
-<script src="js/script.js"></script>
-
-</body>
+        <div id="background-indicators">
+          <!-- javascript puts dots here with class background-indicator-->
+        </div>
+        <h3>"Where dreams take root and flourish."</h3>
+        <h1>Little moments, big magic</h1>
+        <p>Embrace growth and sparkle brightly.</p>
+        <a href="#blog" class="button-primary"> Explore </a>
+        <div class="carousel-buttons">
+          <button id="carousel-button-prev" onclick="prevSlide()">
+            &#10094;
+          </button>
+          <button id="carousel-button-next" onclick="nextSlide()">
+            &#10095;
+          </button>
+        </div>
+      </div>
+      <div id="blog">
+        <h3>Sprinkling joy one thought <span class="highlight">at a time</span></h3>
+        <h1>BLOGS</h1>
+        <div class="blogs-items-container">
+          <!-- javascript puts menu items here with class menu-item-->
+        </div>
+        <div id="blog-item-details">
+          <div class="blogs-item-detailed-overlay"></div>
+          <!-- 
+          javascript puts menu item details here with class menu-item-detailed
+         -->
+        </div>
+      </div>
+    </main>
+    <footer>
+      <span>&copy; Created by <a href="https://github.com/Thumeka" target="_blank">Thumeka</a> </span>
+      <div>
+        <a href="https://github.com/Thumeka/PRODIGY_WD_01" target="_blank">
+          <img
+            src="https://www.svgrepo.com/show/303615/github-icon-1-logo.svg"
+            alt=""
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/Thumeka Tembani/" target="_blank">
+          <img src="https://www.svgrepo.com/show/508852/linkedin.svg" alt="" />
+        </a>
+      </div>
+    </footer>
+    <div class="scrollbar"></div>
+  </body>
+  <script src="/js/script.js"></script>
 </html>
