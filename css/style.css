@@ -223,7 +223,7 @@ nav.navbar {
 }
 
 .landing h3,
-#menu h3 {
+#blog h3 {
   font-family: "Grechen Fuemen", cursive;
   font-size: 1.6rem;
   color: #bb9356;
@@ -232,7 +232,7 @@ nav.navbar {
 }
 
 .landing h1,
-#menu h1 {
+#blog h1 {
   font-family: "Abril Fatface", cursive;
   font-size: 2rem;
   color: #dfdfdf;
@@ -279,7 +279,7 @@ nav.navbar {
   transition: all 0.1s ease-in-out;
 }
 
-/* menu  */
+/* blog  */
 #blog {
   display: flex;
   justify-content: center;

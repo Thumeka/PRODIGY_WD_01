@@ -91,7 +91,7 @@ fetch("/assets/blog-posts.json")
     blogItems = await blogItems.json();
     let i = 0;
     let j = 0;
-    blogItems.forEach((item, index) => {
+    blogItems.forEach((item, _index) => {
       const blogItemDetails = document.createElement("div");
       blogItemDetails.classList.add("blog-item-detailed");
       blogItemDetails.style.backgroundImage = `url(${item.images[1]})`;

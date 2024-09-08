@@ -10,25 +10,25 @@
       font-size: 2.4rem;
     }
     .landing h3,
-    #menu h3 {
+    #blog h3 {
       font-size: 2rem;
     }
     .landing h1,
-    #menu h1 {
+    #blog h1 {
       font-size: 2.6rem;
     }
   
     .landing p {
       font-size: 1.6rem;
     }
-    .menu-items-container {
+    .blog-items-container {
       grid-template-columns: repeat(2, 1fr);
     }
   
     .bottom-content .headings {
       top: -80%;
     }
-    .menu-item-detailed.active {
+    .blog-item-detailed.active {
       max-height: 600px;
     }
     .bottom-content p {
@@ -41,16 +41,16 @@
       padding: 0.2rem 6rem;
     }
     .landing h1,
-    #menu h1 {
+    #blog h1 {
       font-size: 3.4rem;
     }
     .landing p {
       font-size: 2rem;
     }
-    .menu-item-image {
+    .blog-item-image {
       height: 300px;
     }
-    .menu-item-info {
+    .blog-item-info {
       height: 300px;
     }
   }
@@ -59,7 +59,7 @@
     nav.navbar {
       padding: 0.5rem 12rem;
     }
-    .menu-items-container {
+    .blog-items-container {
       grid-template-columns: repeat(4, 1fr);
     }
   }
