@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   
   const landingBackground = document.querySelector("#landing-background");
-  const images = ["Ocean.jpg", "ME.jpg", "Mont.jpg", "sun.jpg"];
+  const images = ["Ocean.jpg", "ME.jpg", "Mont.jpg", "sun.jpg", "Motiv-6.jpg"];
   images.forEach((image) => {
     const img = document.createElement("img");
     img.src = `assets/backgrounds/${image}`;
